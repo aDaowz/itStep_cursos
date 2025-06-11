@@ -35,14 +35,12 @@ Destructuración de Props
 En React es una práctica muy común destructurar los props para simplificar el acceso a sus atributos.
 
     const { los_props } = props;
-
 */
 
 function ComponenteDestructurado(props){
 
     // Destructuración de props
     const { numero, cadena, booleano, arreglo, objeto } = props;
-
 
     return(
         <div>

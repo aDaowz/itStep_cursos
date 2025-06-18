@@ -1,0 +1,30 @@
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    /* max-width: 1000px; */
+    width: 70%;
+    margin: 0 auto 30px auto;
+    gap: 30px;
+}
+
+.contenido {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+    text-align: left;
+}
+
+.tituloCarta {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.textoCarta p {
+    margin: 0 0 20px 0;
+    line-height: 1.4;
+}

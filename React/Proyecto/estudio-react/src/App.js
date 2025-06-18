@@ -1,8 +1,15 @@
+
+// Lecciones
+
 import ComponenteBasico from "./components/ComponenteBasico/ComponenteBasico";
 import ComponenteCSS from "./components/ComponenteCSS/ComponenteCSS";
 import ComponenteProps from "./components/ComponenteProps/ComponenteProps";
 import ComponenteDestructurado from "./components/ComponenteDestructurado/ComponenteDestructurado";
 import ComponenteChildren from "./components/ComponenteChildren/ComponenteChildren";
+
+// Ejercicio
+
+import Ejercicio1 from "./pages/Ejercicio1/Ejercicio1";
 
 function App() {
   return (
@@ -33,5 +40,9 @@ function App() {
     </div>
   );
 }
+
+// function App(){
+//   return <Ejercicio1></Ejercicio1>
+// }
 
 export default App;

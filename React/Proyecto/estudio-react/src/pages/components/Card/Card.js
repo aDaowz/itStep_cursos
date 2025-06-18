@@ -3,6 +3,7 @@ import "./Card.css";
 
 function Card(props) {
     const { titulo, imagen, descripcionFoto, children } = props;
+
     
     return (
         <div className="card">

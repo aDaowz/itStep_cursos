@@ -1,14 +1,13 @@
 
 // Lecciones
-
 import ComponenteBasico from "./components/ComponenteBasico/ComponenteBasico";
 import ComponenteCSS from "./components/ComponenteCSS/ComponenteCSS";
 import ComponenteProps from "./components/ComponenteProps/ComponenteProps";
 import ComponenteDestructurado from "./components/ComponenteDestructurado/ComponenteDestructurado";
 import ComponenteChildren from "./components/ComponenteChildren/ComponenteChildren";
+import ComponenteCondicional from "./components/ComponenteCondicional/ComponenteCondicional";
 
 // Ejercicio
-
 import Ejercicio1 from "./pages/Ejercicio1/Ejercicio1";
 
 function App() {
@@ -36,13 +35,15 @@ function App() {
           <p>Este componente utiliza el prop especial <strong>children</strong> para renderizar contenido envuelto por el componente.</p>
           <p>Todas las etiquetas que se transfieren por este medio son manejadas como un todo a través de children</p>
         </ComponenteChildren>
+        <ComponenteCondicional color={{nombre: 'azul', codigo: '#1ba7d8'}} />
+        <ComponenteCondicional color={{nombre: 'rojo', codigo: '#ea263a'}} />
       </ComponenteChildren>
     </div>
   );
 }
 
 // function App(){
-//   return <Ejercicio1></Ejercicio1>
+//   return <Ejercicio1 />
 // }
 
 export default App;

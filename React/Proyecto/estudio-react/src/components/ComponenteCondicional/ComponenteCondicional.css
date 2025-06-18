@@ -1,0 +1,19 @@
+
+.componenteCondicional{
+    padding: 30px 0;
+}
+
+.colorMuestra{
+    display: flex;
+}
+
+.colorTitulo, .recuadro{
+    display: inline-block;
+}
+
+.recuadro{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    margin-left: 30px;
+}

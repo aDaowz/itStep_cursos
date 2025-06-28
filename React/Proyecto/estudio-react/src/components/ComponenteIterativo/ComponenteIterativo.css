@@ -1,0 +1,39 @@
+/* Contenedor general */
+.componenteIterativo {
+    background-color: #f0f7fc;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+.componenteIterativo h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Tabla */
+.componenteIterativo table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+.componenteIterativo th {
+    background-color: #d9eaf7;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #a9cfe7;
+}
+
+/* Celdas */
+.componenteIterativo td {
+    padding: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+/* Zebra rows */
+.componenteIterativo tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}

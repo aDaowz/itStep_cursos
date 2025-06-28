@@ -6,9 +6,51 @@ import ComponenteProps from "./components/ComponenteProps/ComponenteProps";
 import ComponenteDestructurado from "./components/ComponenteDestructurado/ComponenteDestructurado";
 import ComponenteChildren from "./components/ComponenteChildren/ComponenteChildren";
 import ComponenteCondicional from "./components/ComponenteCondicional/ComponenteCondicional";
+import ComponenteIterativo from "./components/ComponenteIterativo/ComponenteIterativo";
+import ComponenteEstado from "./components/ComponenteEstado/ComponenteEstado";
 
 // Ejercicio
 import Ejercicio1 from "./pages/Ejercicio1/Ejercicio1";
+
+const frutas = [
+  {
+    nombre: "Manzana",
+    color: "Rojo, verde",
+    precio: 30,
+    descripcion: "Fruta dulce y crujiente, ideal para comer fresca o en postres.",
+  },
+  {
+    nombre: "Plátano",
+    color: "Amarillo",
+    precio: 30,
+    descripcion: "Fruta energética y suave, comúnmente consumida como snack.",
+  },
+  {
+    nombre: "Fresa",
+    color: "Rojo",
+    precio: 30,
+    descripcion: "Fruta pequeña y jugosa, muy usada en postres y batidos.",
+  },
+  {
+    nombre: "Sandía",
+    color: "Verde por fuera, rojo por dentro",
+    precio: 25,
+    descripcion: "Fruta muy refrescante y dulce, con alto contenido de agua.",
+  },
+  {
+    nombre: "Naranja",
+    color: "Naranja",
+    precio: 20,
+    descripcion: "Fruta cítrica rica en vitamina C, ideal para jugos.",
+  },
+  {
+    nombre: "Uva",
+    color: "Morado o verde",
+    precio: 40,
+    descripcion: "Fruta pequeña y dulce, ideal para botanas o vino.",
+  },
+  
+];
 
 function App() {
   return (
@@ -37,6 +79,8 @@ function App() {
         </ComponenteChildren>
         <ComponenteCondicional color={{nombre: 'azul', codigo: '#1ba7d8'}} />
         <ComponenteCondicional color={{nombre: 'rojo', codigo: '#ea263a'}} />
+        <ComponenteIterativo datos={ frutas } />
+        <ComponenteEstado />
       </ComponenteChildren>
     </div>
   );

@@ -32,3 +32,16 @@
   font-size: 16px;
   color: #333;
 }
+
+.boton {
+  padding: 10px 20px;
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #287dc9;
+}

@@ -60,7 +60,7 @@ function createTableMap(props){
 function ComponenteIterativo(props) {
     return (
         <div className="componenteIterativo">
-            <h1>Componente &lt;ComponenteIterativo&gt;</h1>
+            <h1>&lt;ComponenteIterativo&gt;</h1>
 
             <table>
                 <thead>
